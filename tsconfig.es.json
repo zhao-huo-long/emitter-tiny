@@ -1,0 +1,24 @@
+{
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": ["node_modules/"],
+  "compilerOptions": {
+    "allowJs": true,
+    "moduleResolution": "Node",
+    "declaration": true,
+    "emitDeclarationOnly": false,
+    "outDir": "es",
+    "charset": "utf-8",
+    "preserveConstEnums": false,
+    "sourceMap": false,
+    "pretty": true,
+    "checkJs": false,
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
+    "target": "ES5",
+    "module": "ES6"
+  }
+}

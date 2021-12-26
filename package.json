@@ -1,8 +1,10 @@
 {
   "name": "emitter-tiny",
   "version": "1.0.0",
-  "description": "a event libary",
-  "main": "index.js",
+  "description": "a tiny event libary",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "types": "es/index.d.ts",
   "scripts": {
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "test": "npm run lint",
